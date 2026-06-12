@@ -1,0 +1,12 @@
+# Fredo — Community Edition
+#
+# The desktop app (`python app.py`) needs the two packages below.
+# The CLI (`python fredo.py scan/pid/listeners`) needs NOTHING beyond the
+# Python standard library — install these only for the GUI.
+
+# --- desktop app (app.py) ---
+customtkinter>=5.2.0
+Pillow>=10.0.0
+
+# --- optional: nmap (external tool, not pip) for "Full scan" service detection ---
+#   Windows: https://nmap.org/download.html   ·   Linux: sudo apt install nmap
